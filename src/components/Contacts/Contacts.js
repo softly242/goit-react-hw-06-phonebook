@@ -1,4 +1,3 @@
-
 import css from './Contacts.module.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { remove } from 'redux/contacts/contactsSlice';
@@ -41,5 +40,3 @@ export default function Contacts() {
     </ul>
   );
 }
-
-
